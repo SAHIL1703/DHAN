@@ -1,0 +1,13 @@
+.nav-link{
+    margin: 0 1.5rem 0 1.5rem;
+}
+
+.footer-link{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+.footer-link a{
+    padding: 0.4rem 0 0.4rem 0;
+}
