@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
+import Hero from "./Hero";
+import Brokerage from "./Brokerage";
+import OpenAccount from "../OpenAccount";
 
-const PricingPage = () => {
+function PricingPage() {
   return (
-    <div>PricingPage</div>
-  )
+    <>
+      <Hero />
+      <OpenAccount />
+      <Brokerage />
+    </>
+  );
 }
 
-export default PricingPage
+export default PricingPage;
