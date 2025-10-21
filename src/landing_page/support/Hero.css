@@ -1,0 +1,43 @@
+#supportWrapper{
+    display: flex;
+    
+    
+    border: 2px solid black;
+    justify-content: space-between;
+}
+section{
+    background-color: rgb(56, 126, 209);
+    color: white;
+}
+
+section h4{
+    border: 2px solid black;
+    flex: 1;
+    margin: 0 2rem 0 2rem;
+}
+.supportLink{
+    border: 2px solid black;
+    margin: 0 2rem 0 2rem;
+}
+
+.searchLink{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.searchLink a{
+    flex-grow: 1;
+    margin: 0.2rem;
+}
+.search{
+    display: block;
+    width: 100%;
+    margin-top: 1.5rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    border: none;
+    font-size: 1.1rem;
+}
+a{
+    color: white;
+}
